@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 /*
-            Aula 46: Operador lógico e (&)
+            Aula 47: Operador lógico e (&)
             TABELA VERDADE  a   b   a & b
                             V   V     V
                             v   f     f
