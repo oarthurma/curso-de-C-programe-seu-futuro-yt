@@ -34,6 +34,7 @@ int main() {
             break;
         default:
             printf("\nOpcao invalida!\n");
+            break;
         }
 
     return 0;
