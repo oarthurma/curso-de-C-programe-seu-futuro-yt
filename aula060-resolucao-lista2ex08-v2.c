@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 /*
-                Aula 59: Exercício 08 segunda versão
+                Aula 60: Exercício 08 segunda versão
         Elabore um programa que, dado o número do mês, indica quantos dias têm esse mês.
         Utilize para isso a estrutura de seleção switch.
         Obs.: Considere fevereiro como tendo 28 dias.
