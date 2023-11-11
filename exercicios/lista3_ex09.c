@@ -7,7 +7,7 @@ A = 1 + 2 + 3 + 4 + … + n, onde n é um número inteiro, maior que zero inform
 */
 int main(){
 
-    int n, i, A;
+    int n, i, A = 0;
 
     do{
         printf("Digite um numero inteiro: ");
