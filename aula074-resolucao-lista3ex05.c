@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 /*                Aula 74: Exercício 05
-        4) Faça um programa que leia as notas referentes às duas avaliações de uma aluno.
+        5) Faça um programa que leia as notas referentes às duas avaliações de uma aluno.
         Calcule e imprima a média semestral. Faça com que o programa só aceite notas
         válidas (uma nota válida deve pertencer ao intervalo de 0 a 10).
         Cada nota deve ser validada separadamente.
