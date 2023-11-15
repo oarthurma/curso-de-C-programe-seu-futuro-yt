@@ -10,7 +10,7 @@ int main(){
 
     float i, soma = 0.00, cent = 0.01;
 
-    for(i = 1; i <= 29; i++) {
+    for(i = 1; i <= 30; i++) {
         soma = soma + cent;
         cent *= 2;
     }
