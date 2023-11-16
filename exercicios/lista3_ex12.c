@@ -6,7 +6,7 @@ a) A idade média dos alunos com menos de 1,70m de altura;
 b) A altura média dos alunos com mais de 20 anos.
 */
 int main(){
-    int i, alunos = 5, idade, somaIdade = 0, menor170 = 0;
+    int i, alunos = 45, idade, somaIdade = 0, menor170 = 0;
     float altura, somaAltura = 0, mediaAltura = 0, mediaIdade = 0, mais20 = 0;
 
     for(i = 1; i <= alunos; i++) {
