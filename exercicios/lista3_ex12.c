@@ -32,9 +32,6 @@ int main(){
     mediaIdade = somaIdade / (float)menor170;
     mediaAltura = somaAltura / mais20;
 
-    printf("%d\n", somaIdade);
-    printf("%.2f\n", somaAltura);
-
     printf("Idade média dos alunos com menos de 1,70m de altura: %.2f.\n", mediaIdade);
     printf("Altura média dos alunos com mais de 20 anos: %.2f.\n\n", mediaAltura);
 
