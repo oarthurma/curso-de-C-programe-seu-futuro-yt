@@ -6,18 +6,14 @@
 
         1ª Qual a definição de número primo? 2, 3, 463
 */
-int main()
-{
+int main(){
     int valor, i, divisores = 0, opcao;
 
-    do
-    {
-        do
-        {
+    do{
+        do{
             printf("Digite um valor maior que 1: ");
             scanf("%d", &valor);
-        }
-        while(valor < 2);
+        }while(valor < 2);
 
         printf("Divisores de %d: ", valor);
         for(i = 2; i <= valor/2; i++){
@@ -34,6 +30,5 @@ int main()
             printf("%d e primo\n", valor);
         printf("\n1 - Digitar outro valor\n2 - Sair\n");
         scanf("%d", &opcao);
-    }
-    while(opcao != 2);
+    }while(opcao != 2);
 }
