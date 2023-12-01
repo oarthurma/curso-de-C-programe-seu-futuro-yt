@@ -10,7 +10,7 @@ anterior. Crie um programa para calcular o total de grãos de trigo que o monge 
 int main(){
     int i, graos = 1, totGraos = 1;
 
-    for(i = 2; i <= 4; i++){
+    for(i = 2; i <= 64; i++){
         graos *= 2; //graos = graos * 2;
         totGraos += graos; //totGraos = totGraos + graos;
     }
