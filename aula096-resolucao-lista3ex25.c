@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-/*                Aula 95: Exercício 24
+/*                Aula 96: Exercício 25
         25) Escreva um programa que leia dois valores X e Y. A seguir, mostre uma sequência
         de 1 até Y, passando para a próxima linha a cada X números.
         Exemplo de entrada:
