@@ -6,25 +6,19 @@ Em seguida, calcule e salve num segundo vetor o quadrado de cada elemento do pri
 fim, imprima os dois vetores.
 */
 int main(){
-    int i, j, mat1[10][10], mat2[2][2];
+    int i, vet1[10], vet2[10];
 
     for(i = 0; i < 10; i++){
-        for(j = 0; j < 10; j++){
-            printf("Digite um valor para %d %d: ", i, j);
-            scanf("%d", &mat1[i][j]);
+            printf("Digite um valor para %d: ", i);
+            scanf("%d", &vet1[i]);
         }
-    }
 
-    for(i = 0; i < 10; i++){
-        for(j = 0; j < 10; j++)
-            mat2[i][j] = mat1[i][j] * mat1[i][j];
-    }
+    for(i = 0; i < 10; i++)
+        vet2[i] = vet1[i] * vet1[i];
 
-    for(i = 0; i < 10; i++){
-        for(j = 0; j < 10; j++)
-            printf("%d ", mat2[i][j]);
-        printf("\n");
 
-    }
+    for(i = 0; i < 10; i++)
+        printf("%d ", vet2[i]);
+
     return 0;
 }
